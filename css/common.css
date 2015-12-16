@@ -1,0 +1,117 @@
+.inner{width:1100px;margin:0 auto;}
+.header,.header .inner{height:115px;}
+.wrapper{font-size:12px; font-family:microsoft yahei;}
+a{text-decoration: none;}
+
+/*header*/
+.header .lay-a{float: left;width: 120px;height: 90px;margin-top:10px;}
+.header .lay-b{float:left;margin-top: 25px;}
+.header .lay-b .item{float:left;text-align:center;margin-left:70px;}
+.header .lay-b .item:hover{border-bottom:4px solid #8fc320;}
+.header .lay-b label{display:block;cursor: pointer;}
+.header .lay-b .tit{font-size:18px;color:#010101;line-height: 25px;}
+.header .lay-b .desc{color:#000;line-height:22px;}
+
+/*banner*/
+.banner .slide1{position: relative; width:100%;height: 460px; overflow: hidden;}
+.banner .slide1 .pics li{width:1920px;}
+.banner .slide1 .btn1,.slide1 .btn2{z-index:100; position: absolute; display: block; width:32px; height: 60px; background: url(.././images/bg.png) no-repeat;}
+.banner .slide1 .btn1{background-position: -1px -1px;left: 47px;top: 178px;}
+.banner .slide1 .btn1:hover{background-position:-73px -1px;}
+.banner .slide1 .btn2{background-position: -35px -1px;left: 1600px;top: 178px;}
+.banner .slide1 .btn2:hover{background-position: -107px -1px;}
+.banner .slide1 .tab1{
+    width:100%;
+    position: absolute;
+    z-index: 100;
+    height: 35px;
+    left: 0;
+    bottom: 0;
+    padding: 0 115px;
+    text-align: center;
+}
+.banner .slide1 .tab1 .ctrl{
+    display: inline-block;
+    width: 24px;
+    height: 5px;
+    margin-right: 11px;
+    background: #fff;
+    opacity: 0.6;
+    -moz-opacity: 0.6;
+    filter: alpha(opacity=60);
+}
+.banner .slide1 .tab1 .ctrl.current{background:#df0303;}
+
+/*footer*/
+.footer{background-color: #1d240d;padding:10px 0;color:#fff;font-size:14px;}
+.footer .inner{text-align:center;}
+.footer .sub-link{color:#ccc;}
+.footer .sub-link:hover{color:#8fc320;text-decoration:underline;}
+
+/*浮标*/
+.floatIcon {
+    position: fixed;
+    top: 580px;
+    left: 50%;
+    margin-left: 560px;
+    z-index: 9999;
+    _position: absolute;
+    _top: expression(eval((document.compatMode&&document.compatMode=="CSS1Compat")?documentElement.scrollTop+documentElement.clientHeight-this.clientHeight-1:document.body.scrollTop+document.body.clientHeight-this.clientHeight-1)-50);
+}
+.fi-box {margin: 5px 0;}
+.fi-box a.r1 {background-position: 0 0;}
+.fi-box a.r2 {background-position: 0 -36px;}
+.fi-box a.r4 {background-position: 0 -108px;}
+.fi-box a.r5 {background-position: 0 -144px;}
+.fi-box a.r3 {background-position: 0 -72px;}
+.fi-box a.r6 {background-position: 0 -185px;}
+.fi-box a.r1:hover{ background-position: -36px 0;}
+.fi-box a.r2:hover{ background-position: -36px -36px;}
+.fi-box a.r3:hover{ background-position: -36px -72px;}
+.fi-box a.r4:hover{ background-position: -36px -108px;}
+.fi-box a.r5:hover{ background-position: -36px -144px;}
+.fi-box a.r6:hover{ background-position: -36px -185px;}
+.fi-box a {
+    position: relative;
+    display: block;
+    width: 36px;
+    height: 36px;
+    background: url(.././images/ficon1.png) no-repeat;
+}
+.fi-box a.r1 .td, .fi-box a.r4 .td, .fi-box a.r5 .td {
+    padding: 5px 10px;
+    text-align: center;
+    font-size: 12px;
+}
+.fi-box .td {
+    display: none;
+    position: absolute;
+    top: 3px;
+    right: 45px;
+    padding: 10px;
+    min-width: 60px;
+    background-color: #bd1321;
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+}
+.fi-box .td i {
+    position: absolute;
+    right: -18px;
+    top: 6px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 7px 10px;
+    border-color: transparent transparent transparent #bd1321;
+}
+.fi-box .td img {
+    margin-bottom: 3px;
+}
+.fi-box .td p {
+    white-space: nowrap;
+}
+.fi-box:hover .td{ display: block;}
+.fi-box .td li{margin-bottom:5px;text-align:left;white-space:nowrap;}
+.fi-box .td .inputStyle{width:128px;height:22px;line-height:22px;background:#fff;border:1px solid #e3dfdf;padding:0 5px;color:#666;}
+.fi-box .td .btnStyle{width:140px;height:24px;background:#740b14;color:#fff;border:none;cursor:pointer;}

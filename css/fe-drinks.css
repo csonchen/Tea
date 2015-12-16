@@ -1,0 +1,18 @@
+.area1{margin:50px 0;}
+.area1 .inner{overflow:hidden;}
+.area1 .lay-a{font-size:14px;float:left;}
+.area1 .lay-a a{color:#000;border-bottom:3px solid #ccc;padding:0 10px;margin: 0 5px;padding: 0 4px;}
+.area1 .lay-a a:hover{color:#000;border-color:#8fc320;}
+.area1 .lay-b{float:right;}
+
+.area2 .inner{overflow:hidden;}
+.area2 .item{float:left;margin: 0 50px 40px 0;text-align:center;font-size:14px;}
+.area2 .item a{
+    display: block;
+    width: 210px;
+    height: 210px;
+    border: 3px solid #d8d8d8;
+}
+.area2 .item a:hover{border-color:#d03435;}
+.area2 .item img{display: block;}
+.area2 .item .txt{line-height:25px;}

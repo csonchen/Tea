@@ -1,0 +1,49 @@
+.area1{margin-top:20px;}
+.area1 .lay-a{text-align:center;margin-bottom:20px;}
+.area1 .lay-a .tit{font-size:20px;}
+.area1 .lay-b{overflow:hidden;}
+.area1 .lay-b .part-a{float:left;width:450px;}
+.area1 .lay-b .part-a .tit{font-size: 18px;display: block;border-bottom: 4px solid #8fc320;width: 100px;padding-bottom: 5px;}
+.area1 .lay-b .part-a .desc{font-size: 14px;text-align: left;line-height: 25px;text-indent: 2em;margin-top:10px;}
+.area1 .lay-b .part-b{float: left;width: 500px;margin-left: 120px;}
+.area1 .lay-b .part-b img{float:left; margin:20px 20px 0 0;}
+
+.area2{width: 100%;height: 495px;background: url(http://dummyimage.com/1920x495/B5E61D/fff) no-repeat;background-size: 100% 495px;}
+.area2 .inner{text-align:center;}
+.area2 h3{font-size:20px;color:#fff;line-height: 150px;}
+.area2 .slide2{width:900px;height:295px;overflow:hidden;margin: 0 auto;}
+.area2 .slide2 .item{width:285px;height:295px;float:left;margin-left:15px;}
+
+.area3{margin-top: 40px;}
+.area3 .inner{text-align:center;}
+.area3 .lay-a{font-size: 20px;line-height: 50px;}
+.area3 .lay-b{font-size: 14px;}
+.area3 .lay-c{margin: 50px auto 0;overflow:hidden;}
+.area3 .lay-c .part{float:left; text-align:center;width: 355px;margin-bottom: 30px;}
+.area3 .lay-c .part label{display:block;line-height:22px;}
+.area3 .lay-c .part label.tit{ font-weight: bold;margin-top:5px;}
+
+.area4{background-color: #8fc320;padding:20px 0;}
+.area4 .inner{background-color:#fff;padding:15px;overflow:hidden;}
+.area4 .tit{
+    font-size: 18px;
+    display: block;
+    border-bottom: 4px solid #8fc320;
+    width: 100px;
+    padding-bottom: 5px;
+}
+.area4 .lay-a{float:left;width:475px;}
+.area4 .lay-a .top{background:url(../images/icon_new.png) no-repeat 0 8px;}
+.area4 .lay-a .item{padding-left: 40px;font-size:14px;border-bottom:1px solid #8fc320;line-height:30px;}
+.area4 .lay-a .item a{display:block; overflow:hidden;color:#000;}
+.area4 .lay-a .item a:hover{text-decoration: underline;}
+.area4 .lay-a .item label.txt{float:left;}
+.area4 .lay-a .item label.time{float:right;}
+.area4 .lay-a .item label{cursor:pointer;}
+.area4 .lay-b{float: left;width: 450px;margin-left: 70px;}
+.area4 .lay-b .part{overflow: hidden;margin-top: 12px;}
+.area4 .lay-b .part img{float: left;}
+.area4 .lay-b .part .cont{float: left;width: 280px;margin-left: 15px;}
+.area4 .lay-b .part .cont .cont-tit{font-size: 16px;display: block;margin-bottom: 5px;}
+.area4 .lay-b .part .cont .desc{line-height: 17px;}
+

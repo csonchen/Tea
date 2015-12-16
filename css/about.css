@@ -1,0 +1,17 @@
+.area1{margin:50px 0;}
+.area1 .inner{overflow:hidden;}
+.area1 .lay-a{font-size:14px;float:left;}
+.area1 .lay-a a{color:#000;border-bottom:3px solid #ccc;padding:0 10px;margin: 0 5px;padding: 0 4px;}
+.area1 .lay-a a:hover{color:#000;border-color:#8fc320;}
+.area1 .lay-b{float:right;}
+
+.area2{margin-bottom:30px;}
+.area2 .lay{border:1px solid #000;padding:30px 15px 50px; text-align:center;}
+.area2 .lay .tit{font-size: 16px;}
+.area2 .lay .desc{text-align:left;text-indent:2em;font-size:14px;line-height: 25px;margin-top: 25px;}
+.area2 .lay .desc-img{margin-top: 25px;}
+.area2 .lay .page{overflow: hidden;margin-top: 30px;font-size: 14px;}
+.area2 .lay .page a{color:#000;}
+.area2 .lay .page a:hover{color:#8fc320;text-decoration:underline;}
+.area2 .lay .page .col-a{float:left;}
+.area2 .lay .page .col-b{float:right;}

@@ -1,0 +1,44 @@
+.area1{margin: 60px 0;}
+.area1 .form{
+    width: 700px;
+    background-color: #8fc320;
+    padding: 20px;
+    margin: 0 auto;
+    font-size: 14px;
+}
+.area1 .form .desc{text-indent: 2em;color: #fff;}
+.area1 .form .item{display:block;color:#000;overflow:hidden;margin-top:15px;}
+.area1 .form .item .txt{
+    background-color: #fcd001;
+    text-align: center;
+    width: 70px;
+    float: left;
+    height: 35px;
+    line-height: 35px;
+    padding: 0 30px;
+}
+.area1 .form .item .txt .star{color:#F00;}
+.area1 .form .item input{
+    float: left;
+    border: none;
+    width: 500px;
+    height: 35px;
+    line-height: 35px;
+    padding: 0 15px;
+    outline: none;
+}
+.area1 .form .item textarea{
+    width: 657px;
+    height: 100px;
+    outline: none;
+    border: none;
+}
+.area1 .form .item-button{text-align: right;margin-right: 38px;}
+.area1 .form button{
+    border:none;
+    outline:none;
+    cursor:pointer;
+    padding:10px 40px;margin-left:10px;
+}
+.area1 .form .sub{background-color:#fcd001;}
+.area1 .form .res{background-color:#eeeeee;}
